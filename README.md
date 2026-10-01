@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/B-es"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-B--es-181717?style=flat-square&logo=github&logoColor=white"></a>
-  <a href="https://t.me/BSchmerz"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@ваш_ник-26A5E4?style=flat-square&logo=telegram&logoColor=white"></a>
+  <a href="https://t.me/BSchmerz"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@BSchmerz-26A5E4?style=flat-square&logo=telegram&logoColor=white"></a>
   <a href="mailto:ivan20030630@mail.ru"><img alt="Email" src="https://img.shields.io/badge/ivan20030630@mail.ru-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
   <a href="https://volgograd.hh.ru/resume/ffe4ad22ff112fea160039ed1f486349374454"><img alt="Резюме" src="https://img.shields.io/badge/Резюме-hh.ru-FF6B35?style=flat-square&logo=hh&logoColor=white"></a>
 </p>
