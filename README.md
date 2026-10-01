@@ -3,7 +3,7 @@
 <h1 align="center">Иван Васильев</h1>
 
 <p align="center">
-  <b>Backend / Fullstack разработчик · Python + интеграции · Vue 3 / TypeScript на фронтенде</b><br>
+  <b>Python-разработчик: backend и интеграции · FastAPI / Django · Vue 3 / TypeScript · Flutter</b><br>
   Магистрант ВолгГТУ (САПР-2.1) · проектирую REST-сервисы, подключаю внешние API и автоматизирую рутину
 </p>
 
@@ -16,124 +16,129 @@
   <img alt="Flutter / Dart" src="https://img.shields.io/badge/Flutter%20%2F%20Dart-02569B?style=flat-square&logo=flutter&logoColor=white">
 </p>
 
+<p align="center">
+  <a href="https://github.com/B-es"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-B--es-181717?style=flat-square&logo=github&logoColor=white"></a>
+  <a href="https://t.me/ваш_ник"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@ваш_ник-26A5E4?style=flat-square&logo=telegram&logoColor=white"></a>
+  <a href="mailto:ivan20030630@mail.ru"><img alt="Email" src="https://img.shields.io/badge/ivan20030630@mail.ru-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="ссылка_на_резюме"><img alt="Резюме" src="https://img.shields.io/badge/Резюме-hh.ru-FF6B35?style=flat-square&logo=hh&logoColor=white"></a>
+</p>
+
 ---
 
-## 🧭 Чем занимаюсь
+## Чем занимаюсь
 
-- **Бэкенд и API.** Проектирую REST-сервисы на **FastAPI** и **Django + DRF**: роутеры, схемы, ORM-слой, авторизация по **JWT**, фоновые задачи по расписанию (**APScheduler**), интеграция с БД (**PostgreSQL**, SQLite).
-- **Интеграции — основная специализация.** Платёжные шлюзы и обработка вебхуков (**Epoint**, **SSLCcommerce / Privat24**), LLM-провайдеры (**Mistral**, **OpenAI**, Hugging Face), боты **VK** и **Telegram**, обёртки сторонних REST API.
-- **Парсинг и автоматизация.** Selenium, requests + BeautifulSoup, асинхронные сборщики, регулярный обход источников с выдачей результата в бота или в БД.
-- **Фронтенд и мобильные.** **Vue 3 + TypeScript** (Vite, Pinia), Nuxt 3, **Flutter / Dart** — обычно закрываю задачу целиком: от API до интерфейса.
-- **MVP под задачу.** Собираю рабочую версию быстро: сервис + интерфейс + парсер/бот + запуск через docker-compose.
+- **Backend и API.** Проектирую REST-сервисы на **FastAPI** и **Django + DRF**: роутеры, Pydantic-схемы, ORM-слой (SQLAlchemy), JWT-авторизация, фоновые задачи (APScheduler), работа с PostgreSQL и SQLite.
+- **Интеграции — ключевая специализация.** Платёжные шлюзы и обработка вебхуков (**Epoint**, **SSLCommerz / IPN**), LLM-провайдеры (**Mistral**, **OpenAI**, Hugging Face), боты **VK** и **Telegram**, обёртки сторонних REST API.
+- **Парсинг и автоматизация.** Selenium, requests + BeautifulSoup, асинхронные сборщики (asyncio + httpx), регулярный обход источников с выгрузкой в БД, CSV/JSON или бота.
+- **Frontend и мобильные.** **Vue 3 + TypeScript** (Vite, Pinia), **Nuxt 3**, **Flutter / Dart** — реализую полный цикл: от API до интерфейса.
+- **Быстрый прототип.** Собираю рабочую версию: сервис + интерфейс + парсер/бот + запуск через docker-compose.
 
-## 🛠 Стек
+## Стек
 
 | Область | Технологии |
 |---|---|
-| Бэкенд | Python, FastAPI, Django + DRF, Flask, SQLAlchemy, Pydantic, JWT, APScheduler |
+| Backend | Python, FastAPI, Django + DRF, Flask, SQLAlchemy, Pydantic, JWT, APScheduler |
 | Данные | PostgreSQL, SQLite, MySQL, pandas, numpy, PySpark |
-| Парсинг и скрапинг | Selenium, requests, BeautifulSoup, asyncio, работа с прокси |
-| Интеграции | REST и вебхуки, платёжные API (Epoint, SSLCcommerce / Privat24), LLM (Mistral, OpenAI, HF), VK API, Telegram Bot API |
-| Фронтенд | Vue 3 + TypeScript, Vite, Pinia, Nuxt 3, React (MUI, Recharts, Cytoscape), REST, WebSocket |
+| Парсинг и скрапинг | Selenium, requests, BeautifulSoup, asyncio, httpx, работа с прокси |
+| Интеграции | REST и вебхуки, платёжные API (Epoint, SSLCommerz / IPN), LLM (Mistral, OpenAI, HF), VK API, Telegram Bot API |
+| Frontend | Vue 3 + TypeScript, Vite, Pinia, Nuxt 3, REST, WebSocket |
 | Мобильные и десктоп | Flutter / Dart, Flet, Tkinter, PHP (WordPress + Tutor LMS), C# / Unity, Kotlin (базовый уровень) |
 | Инфраструктура | Docker, docker-compose, GitHub Actions, uvicorn / gunicorn, Linux, Git |
 
 ---
 
-## 🚀 Избранные проекты
-
-### Интеграции, API и боты
-
-| Проект | Что это | Стек |
-|---|---|---|
-| **[Zm_server](https://github.com/B-es/Zm_server)** + **[Zm-Web](https://github.com/B-es/Zm-Web)** | Пара «сервис + интерфейс»: API для хранения карточек по категориям и веб-клиент к нему | FastAPI · Vue 3 |
-| **[Parse_RIAC_Tg_Bot](https://github.com/B-es/Parse_RIAC_Tg_Bot)** | Сбор данных с сайта и выдача их пользователю через Telegram-бота | Python · парсинг · Telegram Bot API |
-| **[Digital-Farming-Dictionary-Bot](https://github.com/B-es/Digital-Farming-Dictionary-Bot)** | Telegram-бот-словарь терминов цифрового сельского хозяйства | Python · Telegram Bot API |
-| **[tutor-epoint](https://github.com/B-es/tutor-epoint)** | Интеграция платёжного шлюза Epoint в Tutor LMS (WordPress): оплата и обработка вебхуков | PHP · платёжные вебхуки |
-| **[FluentWeatherOpenMeteo](https://github.com/B-es/FluentWeatherOpenMeteo)** | Замена погодного API на Open-Meteo в существующем Flutter-приложении | Dart · REST API |
-
-### Сервисы и веб
-
-| Проект | Что это | Стек |
-|---|---|---|
-| **[ScieJournalVSTU](https://github.com/B-es/ScieJournalVSTU)** | «Научный журнал ВСТУ»: роли пользователей, JWT-авторизация, полный жизненный цикл статьи (подача → рецензирование → публикация) | Django + DRF · JWT · Vue/Nuxt |
-| **[book-viewer-server](https://github.com/B-es/book-viewer-server)** + **[book-viewer](https://github.com/B-es/book-viewer)** | Клиент-серверное приложение для чтения и хранения библиотеки книг | Python (сервер) · JS/CSS (клиент) |
-| **[Drevo](https://github.com/B-es/Drevo)** | Родовое древо: интерактивное представление связей и родственных узлов | TypeScript |
-| **[FastReader](https://github.com/B-es/FastReader)** | Тренажёр скорочтения с постепенным ускорением подачи текста | Python |
-| **[SaveWatched](https://github.com/B-es/SaveWatched)** | Библиотека просмотренного: учёт и хранение списка материалов | Python |
-| **[ExceptNetwork](https://github.com/B-es/ExceptNetwork)** | Windows-утилита: добавление адресов в исключения прокси-сервера | Python · Windows API |
-| **[BrowserKeyCleaner](https://github.com/B-es/BrowserKeyCleaner)** | Windows-утилита: удаление сохранённых паролей из установленных браузеров | Python · Windows API |
-
-### Мобильные приложения
-
-| Проект | Что это | Стек |
-|---|---|---|
-| **[RewardMobileApp](https://github.com/B-es/RewardMobileApp)** | Коммерческое мобильное приложение для языкового центра «Reward» | Flutter · Dart |
-| **[Sked](https://github.com/B-es/Sked)** | Приложение для просмотра расписания ВолгГТУ | Flutter · Dart |
-| **[Desk](https://github.com/B-es/Desk)** | Приложение в духе Avito: объявления, категории, карточки товаров (учебный проект) | Flutter · Dart |
-| **[Gesundes](https://github.com/B-es/Gesundes)** | Приложение по технологии разработки человеко-машинных интерфейсов | Flutter · Dart |
-
-### Данные и исследования
-
-| Проект | Что это | Стек |
-|---|---|---|
-| **[DynamicPriceDiplom](https://github.com/B-es/DynamicPriceDiplom)** | Реализация метода динамического ценообразования на маркетплейсе | Jupyter · Python · pandas |
-| **[LoanDiplom](https://github.com/B-es/LoanDiplom)** | Анализ и модель кредитного скоринга | Jupyter · Python · ML |
-| **[NeuroLabs](https://github.com/B-es/NeuroLabs)** | Лабораторные по нейронным сетям | Jupyter · Python |
-| **[home_control_system](https://github.com/B-es/home_control_system)** | Курсовая: система управления устройствами умного дома | Python |
+## Проекты
 
 <details>
-<summary><b>Учебные работы и лабораторные (АСОИУ / ВолгГТУ)</b></summary>
+<summary><b>Backend, API и интеграции</b></summary>
 
-| Проект | Дисциплина / тема | Стек |
-|---|---|---|
-| [SOBD1](https://github.com/B-es/SOBD1) | Большие данные: обработка датасета на PySpark | Jupyter · PySpark |
-| [PTLab1](https://github.com/B-es/PTLab1) · [PTLab4](https://github.com/B-es/PTLab4) | Технологии программирования | Python · Jupyter |
-| [Victorina](https://github.com/B-es/Victorina) | Викторина на ASP.NET | C# · ASP.NET |
-| [DrivingSimulator](https://github.com/B-es/DrivingSimulator) | Интеграция симуляции SUMO в игру на Unity | C# · Unity · SUMO |
-| [Plumbing-shop](https://github.com/B-es/Plumbing-shop) | Учебный веб-проект магазина | C# |
-| [PC_Tab](https://github.com/B-es/PC_Tab) | Базы данных | Python |
-| [SUBD_1](https://github.com/B-es/SUBD_1) | СУБД | Python |
-| [Lab2_Reestr](https://github.com/B-es/Lab2_Reestr) | Технология распределённого реестра | JavaScript |
-| [cifro_gid](https://github.com/B-es/cifro_gid) | НИР по цифровому гиду | Dart |
-| [Gliridae](https://github.com/B-es/Gliridae) | «Соня» — туристический гид | HTML · CSS |
-| [ShavermaVibe](https://github.com/B-es/ShavermaVibe) | Учебный веб-проект | HTML |
-| [Rustam_GTag](https://github.com/B-es/Rustam_GTag) | Небольшая веб-страница (GitHub Pages) | HTML |
+- **[Drevo](https://github.com/B-es/Drevo)** — родовое древо (TypeScript · Vitest)
+- **[Module_RDDH](https://github.com/B-es/Module_RDDH)** — расчёты по вычислительной математике, командный (C# · WinForms)
+- **[cifro_gid](https://github.com/B-es/cifro_gid)** — цифровой гид, командный (Dart · Flutter)
+- **[Zm_server](https://github.com/B-es/Zm_server) + [Zm-Web](https://github.com/B-es/Zm-Web)** — API + веб-клиент (FastAPI · Vue 3)
+- **[ScieJournalVSTU](https://github.com/B-es/ScieJournalVSTU)** — научный журнал ВСТУ (Django + DRF · Vue / Nuxt)
+
+</details>
+
+<details>
+<summary><b>Боты и парсинг</b></summary>
+
+- **[Parse_RIAC_Tg_Bot](https://github.com/B-es/Parse_RIAC_Tg_Bot)** — парсинг + Telegram-бот (Python)
+- **[Digital-Farming-Dictionary-Bot](https://github.com/B-es/Digital-Farming-Dictionary-Bot)** — Telegram-бот-словарь (Python)
+
+</details>
+
+<details>
+<summary><b>Форки</b></summary>
+
+- **[tutor-epoint](https://github.com/B-es/tutor-epoint)** — форк: Epoint в Tutor LMS (PHP)
+- **[FluentWeatherOpenMeteo](https://github.com/B-es/FluentWeatherOpenMeteo)** — форк: Open-Meteo в Flutter (Dart)
+
+</details>
+
+<details>
+<summary><b>Утилиты</b></summary>
+
+- **[FastReader](https://github.com/B-es/FastReader)** — тренажёр скорочтения (Python)
+- **[SaveWatched](https://github.com/B-es/SaveWatched)** — библиотека просмотренного (Python)
+- **[ExceptNetwork](https://github.com/B-es/ExceptNetwork)** — исключения прокси (Python · Windows API)
+- **[BrowserKeyCleaner](https://github.com/B-es/BrowserKeyCleaner)** — удаление паролей из браузеров (Python · Windows API)
+
+</details>
+
+<details>
+<summary><b>Учебные проекты</b></summary>
+
+- **[DynamicPriceDiplom](https://github.com/B-es/DynamicPriceDiplom)** — динамическое ценообразование на маркетплейсе (Jupyter · pandas)
+- **[LoanDiplom](https://github.com/B-es/LoanDiplom)** — кредитный скоринг (Jupyter · ML)
+- **[ShavermaVibe](https://github.com/B-es/ShavermaVibe)** — веб-проект (HTML → Nuxt)
+- **[Sked](https://github.com/B-es/Sked)** — расписание ВолгГТУ (Flutter · Dart)
+- **[Desk](https://github.com/B-es/Desk)** — Avito-подобное приложение (Flutter · Dart)
+- **[book-viewer-server](https://github.com/B-es/book-viewer-server) + [book-viewer](https://github.com/B-es/book-viewer)** — клиент-серверное приложение (Python · JS/CSS)
+- **[NeuroLabs](https://github.com/B-es/NeuroLabs)** — нейронные сети (Jupyter)
+- **[SOBD1](https://github.com/B-es/SOBD1)** — PySpark (Jupyter)
+- **[PTLab1](https://github.com/B-es/PTLab1)** · **[PTLab4](https://github.com/B-es/PTLab4)** — технологии программирования (Python · Jupyter)
+- **[home_control_system](https://github.com/B-es/home_control_system)** — умный дом (Python)
+- **[Victorina](https://github.com/B-es/Victorina)** — викторина (C# · ASP.NET)
+- **[Gesundes](https://github.com/B-es/Gesundes)** — ЧМИ (Flutter · Dart)
+- **[DrivingSimulator](https://github.com/B-es/DrivingSimulator)** — SUMO + Unity (C# · Unity)
+- **[Plumbing-shop](https://github.com/B-es/Plumbing-shop)** — магазин (C#)
+- **[PC_Tab](https://github.com/B-es/PC_Tab)** — базы данных (Python)
+- **[SUBD_1](https://github.com/B-es/SUBD_1)** — СУБД (Python)
+- **[Lab2_Reestr](https://github.com/B-es/Lab2_Reestr)** — распределённый реестр (JavaScript)
+- **[Gliridae](https://github.com/B-es/Gliridae)** — туристический гид (HTML · CSS)
 
 Часть рабочих проектов — коммерческая разработка и внутренние сервисы — находится в приватных репозиториях.
+
 </details>
 
 ---
 
-## 🎯 Чем могу помочь
+## Чем могу помочь
 
-- **Поднять REST API** — FastAPI или Django + DRF: модели, схемы, авторизация, фоновые задачи, документация.
-- **Интегрировать внешний сервис** — платёжный шлюз с вебхуками, LLM-провайдер, карты, чужие REST API.
-- **Спарсить сайт** — регулярный сбор данных, обход капч и прокси, выгрузка в БД, Excel или Google Sheets.
-- **Написать бота** — Telegram или VK: меню, сценарии, связка с бэкендом и БД.
-- **Сделать интерфейс** — Vue 3 + TypeScript или Flutter: от макета до рабочего приложения, включая связку с API.
-- **Автоматизировать процесс** — утилиты и скрипты, которые убирают ручную рутину.
+<details>
+<summary><b>Развернуть список услуг</b></summary>
 
-## 📈 Куда развиваюсь
+- **REST API** — FastAPI или Django + DRF: модели, схемы, авторизация, фоновые задачи, документация.
+- **Интеграции** — платёжный шлюз с вебхуками, LLM-провайдер, карты, чужие REST API.
+- **Парсинг** — регулярный сбор данных, обход капч и прокси, выгрузка в БД, Excel или Google Sheets.
+- **Боты** — Telegram или VK: меню, сценарии, связка с бэкендом и БД.
+- **Интерфейсы** — Vue 3 + TypeScript или Flutter: от макета до рабочего приложения.
+- **Автоматизация** — утилиты и скрипты, которые убирают ручную рутину.
 
-Уже сейчас закрываю полный цикл задачи — от API до интерфейса. Планомерно усиливаю то,
-что отличает рабочий прототип от продукта:
+</details>
+
+<details>
+<summary><b>Куда развиваюсь</b></summary>
+
+Уже сейчас реализую полный цикл задачи — от API до интерфейса. Усиливаю то, что отличает прототип от production-ready решения:
 
 - **Качество кода:** pytest, httpx, покрытие тестами критичных сценариев.
 - **Инфраструктура:** Docker в продакшене, Nginx + gunicorn/uvicorn, GitHub Actions (CI/CD), Sentry и логирование.
 - **Данные:** PostgreSQL + Alembic (миграции), Pydantic v2, Redis + Celery/ARQ для фоновых задач.
 
+</details>
+
 ---
-
-## 📫 Контакты
-
-- **GitHub:** [github.com/B-es](https://github.com/B-es)
-<!-- Раскомментируй и заполни — эти контакты увидят первыми:
-
-- **Telegram:** @ваш_ник
-- **Email:** your@mail.ru
-- **Резюме:** ссылка на hh.ru или PDF
-
--->
 
 <p align="center"><i>Открыт к предложениям по backend-разработке, интеграциям и автоматизации.</i></p>
