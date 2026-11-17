@@ -3,7 +3,7 @@
 <h1 align="center">Иван Васильев</h1>
 
 <p align="center">
-  <b>Python-разработчик: backend и интеграции · FastAPI / Django · Vue 3 / TypeScript · Flutter</b><br>
+  <b>Python-разработчик: backend и интеграции · FastAPI · Vue 3 / TypeScript · Flutter</b><br>
   Магистрант ВолгГТУ (САПР-2.1) · проектирую REST-сервисы, подключаю внешние API и автоматизирую рутину
 </p>
 
@@ -11,7 +11,6 @@
   <a href="https://github.com/B-es?tab=repositories"><img alt="Public repositories" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FB-es&query=%24.public_repos&label=repositories&logo=github&color=181717&style=flat-square"></a>
   <img alt="Python" src="https://img.shields.io/badge/Python-backend-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
-  <img alt="Django" src="https://img.shields.io/badge/Django%20%2B%20DRF-092E20?style=flat-square&logo=django&logoColor=white">
   <img alt="Vue 3 + TypeScript" src="https://img.shields.io/badge/Vue%203%20%2B%20TS-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white">
   <img alt="Flutter / Dart" src="https://img.shields.io/badge/Flutter%20%2F%20Dart-02569B?style=flat-square&logo=flutter&logoColor=white">
 </p>
